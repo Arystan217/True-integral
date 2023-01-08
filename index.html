@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>True Integral</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Integral solution:</h1>
+
+    <div>
+      <label for="a">Enter start point:</label>
+      <input type="number" id="a" value="">
+      <label for="b">Enter end point:</label>
+      <input type="number" id="b" value="">
+      <label for="step">Enter step:</label>
+      <input type="number" id="step" value="">
+      <input type="submit" id="submit" value="calculate">
+    </div>
+
+
+    <p>It took for calculations: <span id="time-c"></span></p>
+    <p>It took for html veiw: <span id="time-h"></span></p>
+    <p class="answer">Result: <span id="result"></span></p>
+    <p>Function: <span>y = x<sup>2</sup></span></p>
+    <p>Amount of Intermediate calculations: <span id="amountOfCalc"></span></p>
+    <br>
+    <p>Intermediate сalculations:</p>
+
+    <table>
+      <tbody>
+
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
